@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1032CFE24CCD3140006DD72 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1032CFD24CCD3140006DD72 /* Length.swift */; };
 		B15F702C24CB8ABE009EF496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F702B24CB8ABE009EF496 /* AppDelegate.swift */; };
 		B15F702E24CB8ABE009EF496 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F702D24CB8ABE009EF496 /* SceneDelegate.swift */; };
 		B15F703024CB8ABE009EF496 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F702F24CB8ABE009EF496 /* ContentView.swift */; };
 		B15F703224CB8ABF009EF496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15F703124CB8ABF009EF496 /* Assets.xcassets */; };
 		B15F703524CB8ABF009EF496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15F703424CB8ABF009EF496 /* Preview Assets.xcassets */; };
 		B15F703824CB8ABF009EF496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15F703624CB8ABF009EF496 /* LaunchScreen.storyboard */; };
+		B15F704124CBA0B0009EF496 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F704024CBA0B0009EF496 /* Unit.swift */; };
+		B15F704324CBC9A9009EF496 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F704224CBC9A9009EF496 /* Time.swift */; };
+		B1A55E9624CCCAB4008BE1CD /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A55E9524CCCAB4008BE1CD /* Temperature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1032CFD24CCD3140006DD72 /* Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
 		B15F702824CB8ABE009EF496 /* UnitConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15F702B24CB8ABE009EF496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B15F702D24CB8ABE009EF496 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		B15F703424CB8ABF009EF496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B15F703724CB8ABF009EF496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B15F703924CB8ABF009EF496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15F704024CBA0B0009EF496 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		B15F704224CBC9A9009EF496 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		B1A55E9524CCCAB4008BE1CD /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				B15F702B24CB8ABE009EF496 /* AppDelegate.swift */,
+				B15F703F24CBA045009EF496 /* Model */,
 				B15F702D24CB8ABE009EF496 /* SceneDelegate.swift */,
 				B15F702F24CB8ABE009EF496 /* ContentView.swift */,
 				B15F703124CB8ABF009EF496 /* Assets.xcassets */,
@@ -73,6 +82,17 @@
 				B15F703424CB8ABF009EF496 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B15F703F24CBA045009EF496 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B15F704024CBA0B0009EF496 /* Unit.swift */,
+				B15F704224CBC9A9009EF496 /* Time.swift */,
+				B1A55E9524CCCAB4008BE1CD /* Temperature.swift */,
+				B1032CFD24CCD3140006DD72 /* Length.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B15F702C24CB8ABE009EF496 /* AppDelegate.swift in Sources */,
+				B15F704124CBA0B0009EF496 /* Unit.swift in Sources */,
+				B1A55E9624CCCAB4008BE1CD /* Temperature.swift in Sources */,
+				B15F704324CBC9A9009EF496 /* Time.swift in Sources */,
 				B15F702E24CB8ABE009EF496 /* SceneDelegate.swift in Sources */,
 				B15F703024CB8ABE009EF496 /* ContentView.swift in Sources */,
+				B1032CFE24CCD3140006DD72 /* Length.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +313,7 @@
 				DEVELOPMENT_TEAM = XDDT3R5V4L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UnitConversion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +334,7 @@
 				DEVELOPMENT_TEAM = XDDT3R5V4L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UnitConversion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
